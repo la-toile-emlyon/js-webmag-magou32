@@ -10,11 +10,33 @@ function getData() {
       /// EXAM: COMPLÉTEZ LE CODE ICI !
       console.log(data);
       
-
       // TODO 1: REMPLIR LE HEADER
+      let h1 = document.getElementById("nom-journal");
+        console.log(h1);
+      let journalNomJournal = data.journal.nomJournal;
+        console.log(data.journal.nomJournal);
+      h1.textContent = journalNomJournal;
 
-      // TODO 2: REMPLIR LA NAVIGATION
-
+      let p = document.getElementById("phrase-accroche");
+        console.log(p); 
+      let journalPhraseAccroche = data.journal.phraseAccroche;
+        console.log(data.journal.phraseAccroche);
+      p.textContent = journalPhraseAccroche; 
+      
+    // TODO 2: REMPLIR LA NAVIGATION
+    let navDiv = document.getElementById("themes-nav")
+      console.log(navDiv);
+    let themes = data.journal.themes;
+      console.log(themes);
+      
+    themes.forEach(theme => {
+    let nom = theme.nom;
+     console.log(nom);
+    let nav = 
+    `<li class="nav-theme-btn"><ul>${nom}</ul></li>`
+    navDiv.insertAdjacentHTML("beforeend", nav)  
+      });
+    
       // TODO 3: REMPLIR L'ARTICLE PRINCIPAL
 
       // TODO 4: REMPLIR LA GRILLE D'ARTICLES

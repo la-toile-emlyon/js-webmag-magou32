@@ -1,0 +1,94 @@
+{
+  "journal": {
+    "nomJournal": "CinéExpérimental Japonais",
+    "logo": "assets/images/logo.svg",
+    "phraseAccroche": "Le site d'actualité dédié au cinéma expérimental japonais",
+    "texteAppelAction": "Rejoignez notre newsletter pour ne rien manquer !",
+    "articlePrincipal": {
+      "titre": "Exploration de l'avant-garde cinématographique japonaise",
+      "description": "Découvrez les dernières tendances et les réalisateurs émergents de la scène cinématographique expérimentale japonaise.",
+      "date": "25 Avril 2024",
+      "theme": "Cinéma expérimental japonais",
+      "image": "assets/images/image1.png"
+    },
+    "articles": [
+      {
+        "titre": "Nouveau film de Yoko Ono : une expérience sensorielle immersive",
+        "date": "20 Avril 2024",
+        "theme": "Films",
+        "image": "assets/images/image2.png",
+        "popularite": 55
+      },
+      {
+        "titre": "Rencontre avec le réalisateur Hiroshi Teshigahara : entre tradition et expérimentation",
+        "date": "15 Avril 2024",
+        "theme": "Interview",
+        "image": "assets/images/image3.jpg",
+        "popularite": 15
+      },
+      {
+        "titre": "Exploration des thèmes de l'identité dans le cinéma expérimental japonais contemporain",
+        "date": "5 Avril 2024",
+        "theme": "Analyse",
+        "image": "assets/images/image4.jpg",
+        "popularite": 17
+      },
+      {
+        "titre": "Festival de cinéma expérimental à Tokyo : une célébration de l'innovation cinématographique",
+        "date": "28 Mars 2024",
+        "theme": "Événement",
+        "image": "assets/images/image2.png",
+        "popularite": 75
+      },
+      {
+        "titre": "Les œuvres méconnues de la Nouvelle Vague japonaise",
+        "date": "20 Mars 2024",
+        "theme": "Découverte",
+        "image": "assets/images/image3.jpg",
+        "popularite": 73
+      }
+    ],
+    "themes": [
+      {
+        "nom": "Films",
+        "description": "Découvrez les derniers films et les réalisateurs émergents."
+      },
+      {
+        "nom": "Interview",
+        "description": "Rencontres avec les cinéastes et les acteurs de la scène expérimentale japonaise."
+      },
+      {
+        "nom": "Analyse",
+        "description": "Exploration des thèmes et des techniques dans le cinéma expérimental japonais."
+      },
+      {
+        "nom": "Événement",
+        "description": "Informations sur les festivals, les projections spéciales et les événements liés au cinéma expérimental."
+      },
+      {
+        "nom": "Découverte",
+        "description": "Découvrez des œuvres méconnues et des tendances émergentes dans le cinéma japonais."
+      }
+    ],
+    "auteurs": [
+      {
+        "prenom": "Yumi",
+        "typeExperience": "Expert en cinéma expérimental",
+        "presentation": "Passionnée par l'innovation cinématographique, je suis constamment à la recherche de nouveaux talents et de nouvelles tendances dans le monde du cinéma expérimental japonais.",
+        "photo": "assets/images/image2.png"
+      },
+      {
+        "prenom": "Takashi",
+        "typeExperience": "Critique de cinéma",
+        "presentation": "J'explore les nuances artistiques et les implications culturelles du cinéma expérimental japonais à travers mes critiques et mes analyses approfondies.",
+        "photo": "assets/images/image3.jpg"
+      },
+      {
+        "prenom": "Airi",
+        "typeExperience": "Étudiante en cinéma",
+        "presentation": "En tant qu'étudiante passionnée de cinéma, je partage mes découvertes et mes réflexions sur le cinéma expérimental japonais, en mettant l'accent sur les perspectives nouvelles et audacieuses.",
+        "photo": "assets/images/image4.jpg"
+      }
+    ]
+  }
+}
